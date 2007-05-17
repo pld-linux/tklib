@@ -23,7 +23,7 @@ provide Tk utility functions and widgets useful to a large collection
 of Tcl/Tk programmers.
 
 %prep
-%setup  -q
+%setup -q
 
 %build
 %{__aclocal}
