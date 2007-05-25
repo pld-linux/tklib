@@ -1,4 +1,5 @@
 Summary:	Tk Standard Library
+Summary(pl.UTF-8):	Biblioteka standardowa Tk
 Name:		tklib
 Version:	0.4.1
 Release:	1
@@ -21,6 +22,11 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Tklib, the Tk Standard Library is a collection of Tcl packages that
 provide Tk utility functions and widgets useful to a large collection
 of Tcl/Tk programmers.
+
+%description -l pl.UTF-8
+Tklib - biblioteka standardowa Tk - to zestaw pakietów Tcl-a
+udostępniających funkcje narzędziowe i widgety Tk przydatne znacznej
+części programistów Tcl/Tk.
 
 %prep
 %setup -q
