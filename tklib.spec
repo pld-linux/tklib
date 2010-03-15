@@ -44,7 +44,7 @@ install -d $RPM_BUILD_ROOT{%{_prefix}/lib,%{_mandir}/man1}
 %{__make} install \
 	DESTDIR=$RPM_BUILD_ROOT
 
-%ifarch x86_64
+%if %{_lib}==lib64
 mv $RPM_BUILD_ROOT%{_libdir}/%{name}%{majorver} $RPM_BUILD_ROOT%{_prefix}/lib/%{name}%{majorver}
 %endif
 
