@@ -69,6 +69,7 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc ChangeLog DESCRIPTION.txt README README-0.4.txt license.terms
 %dir %{_prefix}/lib/%{name}%{majorver}
+%{_prefix}/lib/%{name}%{majorver}/pkgIndex.tcl
 %{_prefix}/lib/%{name}%{majorver}/autoscroll
 %{_prefix}/lib/%{name}%{majorver}/canvas
 %{_prefix}/lib/%{name}%{majorver}/chatwidget
@@ -83,7 +84,6 @@ rm -rf $RPM_BUILD_ROOT
 %{_prefix}/lib/%{name}%{majorver}/ipentry
 %{_prefix}/lib/%{name}%{majorver}/khim
 %{_prefix}/lib/%{name}%{majorver}/ntext
-%{_prefix}/lib/%{name}%{majorver}/pkgIndex.tcl
 %{_prefix}/lib/%{name}%{majorver}/plotchart
 %{_prefix}/lib/%{name}%{majorver}/style
 %{_prefix}/lib/%{name}%{majorver}/swaplist
