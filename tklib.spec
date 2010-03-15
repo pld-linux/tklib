@@ -1,12 +1,12 @@
 Summary:	Tk Standard Library
 Summary(pl.UTF-8):	Biblioteka standardowa Tk
 Name:		tklib
-Version:	0.4.1
+Version:	0.5
 Release:	1
 License:	BSD
 Group:		Development/Languages/Tcl
 Source0:	http://dl.sourceforge.net/tcllib/%{name}-%{version}.tar.gz
-# Source0-md5:	4b6919112bc2b9bd816120a8210170b5
+# Source0-md5:	c8b84f3eb4dafbd4e5818e29d408faea
 URL:		http://tcllib.sourceforge.net/
 BuildRequires:	autoconf
 BuildRequires:	automake
@@ -16,7 +16,7 @@ Requires:	tcllib
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
-%define		majorver	0.4
+%define		majorver	0.5
 
 %description
 Tklib, the Tk Standard Library is a collection of Tcl packages that
@@ -44,7 +44,7 @@ install -d $RPM_BUILD_ROOT{%{_prefix}/lib,%{_mandir}/man1}
 %{__make} install \
 	DESTDIR=$RPM_BUILD_ROOT
 
-mv $RPM_BUILD_ROOT%{_libdir}/%{name}%{majorver} $RPM_BUILD_ROOT%{_prefix}/lib/%{name}%{majorver}
+#mv $RPM_BUILD_ROOT%{_libdir}/%{name}%{majorver} $RPM_BUILD_ROOT%{_prefix}/lib/%{name}%{majorver}
 
 %clean
 rm -rf $RPM_BUILD_ROOT
