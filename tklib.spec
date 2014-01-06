@@ -30,16 +30,16 @@ udostępniających funkcje narzędziowe i widgety Tk przydatne znacznej
 części programistów Tcl/Tk.
 
 %package demo
-Summary:	Demo for %{name}
-Summary(pl.UTF-8):	Pliki demonstracyjne dla pakietu %{name}
+Summary:	Demonstrations for Tklib
+Summary(pl.UTF-8):	Pliki demonstracyjne dla pakietu Tklib
 Group:		Documentation
-Requires:	%{name} = %{epoch}:%{version}-%{release}
+Requires:	%{name} = %{version}-%{release}
 
 %description demo
-Demonstrations and samples for %{name}.
+Demonstrations and samples for Tklib.
 
 %description demo -l pl.UTF-8
-Pliki demonstracyjne i przykłady dla pakietu %{name}.
+Pliki demonstracyjne i przykłady dla pakietu Tklib.
 
 %prep
 %setup -q
