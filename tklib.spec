@@ -2,7 +2,7 @@ Summary:	Tk Standard Library
 Summary(pl.UTF-8):	Biblioteka standardowa Tk
 Name:		tklib
 Version:	0.5
-Release:	2
+Release:	3
 License:	BSD
 Group:		Development/Languages/Tcl
 Source0:	http://downloads.sourceforge.net/tcllib/%{name}-%{version}.tar.gz
